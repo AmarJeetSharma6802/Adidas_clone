@@ -58,7 +58,7 @@ function Kid() {
         </button>
       </div>
       <div className="felx-fillter">
-        <h1 className="men-h1">Boys/Girls Clothing for Kids & Teenagers - Ages 8 to 16</h1>
+        <h1 className="men-h1">Boys/Girls Clothing <span className='reponsive-hide'>for Kids & Teenagers - Ages 8 to 16</span></h1>
 
         <div className="fillterbtn">
           <button className="fillter-i" onClick={toggleFilter}>
