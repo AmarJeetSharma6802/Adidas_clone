@@ -115,7 +115,7 @@ function SelectedHomeImg() {
       {
         id: '9',
         title: 'NMD_R1 V2 Shoes',
-        price: '₹6,750.00',
+        price: '₹5,199.00',
         offer: '-20% Men • Originals',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/dd974c64e29f4b3aa61b2069133093e5_9366/NMD_R1_V2_Shoes_Yellow_IE2250_01_standard.jpg',
         img2: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e91a4bbceae45afa14c254a88f1a7ac_9366/NMD_R1_V2_Shoes_Yellow_IE2250_02_standard_hover.jpg',

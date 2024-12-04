@@ -57,7 +57,7 @@ function ThirdHome() {
       id:9,
       src: "https://assets.adidas.com/images/w_600,f_auto,q_auto/dd974c64e29f4b3aa61b2069133093e5_9366/NMD_R1_V2_Shoes_Yellow_IE2250_01_standard.jpg",
       offer: "-55%",
-      price: "5 199.50",
+      price: "5,199.50",
       label: "NMD_R1 V2 Shoes",
     },
     {
@@ -71,7 +71,7 @@ function ThirdHome() {
       id:11,
       src: "https://assets.adidas.com/images/w_600,f_auto,q_auto/76752172861843209f02aef900fd6858_9366/NMD_R1_Shoes_White_HQ4451_01_standard.jpg",
       offer: "-20%",
-      price: "6 299.50",
+      price: "6,299.50",
       label: "NMD_R1 Shoes",
     },
     {
