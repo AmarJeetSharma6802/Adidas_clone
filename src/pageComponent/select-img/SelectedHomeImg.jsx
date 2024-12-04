@@ -21,7 +21,7 @@ function SelectedHomeImg() {
       {
         id: '1',
         title: 'adidas Basketball Hoodie',
-        price: '₹8 999.00',
+        price: '₹8,999.00',
         offer: 'Hoodies',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/681a3c8857f64fe1a6d460d1cee082bf_faec/adidas_Basketball_Hoodie_Green_IN4242_HM1.jpg',
         img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/a8bb5b984a4341968afea71c60d3cd00_faec/adidas_Basketball_Hoodie_Green_IN4242_HM3_hover.jpg',
@@ -33,7 +33,7 @@ function SelectedHomeImg() {
       {
         id: '2',
         title: 'Z.N.E. Hoodie',
-        price: '₹9 999.00',
+        price: '₹9,999.00',
         offer: 'Men • Sportswear',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/59460fb0bd584daa88fe9a383d088a9b_9366/Z.N.E._Hoodie_White_JF2454_21_model.jpg',
         img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/d5e5482f1d824c2bb8fb44a80ca9d425_9366/Z.N.E._Hoodie_White_JF2454_23_hover_model.jpg',
@@ -45,7 +45,7 @@ function SelectedHomeImg() {
       {
         id: '3',
         title: 'Own the Run Vest',
-        price: '₹4 999.00',
+        price: '₹4,999.00',
         offer: 'Men • Sportswear',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/dcad06efe67044e799bcd07bbfb779ad_9366/Own_the_Run_Vest_Blue_IW0025_21_model.jpg',
         img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/809b0186527048028f55fb707c195a21_9366/Own_the_Run_Vest_Blue_IW0025_23_hover_model.jpg',
@@ -57,7 +57,7 @@ function SelectedHomeImg() {
       {
         id: '4',
         title: 'India Cricket Anthem Jacket Women',
-        price: '₹4 799.50',
+        price: '₹4,799.50',
         offer: 'Women • Cricket',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/9aefec2b65d043c584fffc3ae9ff385e_9366/India_Cricket_Anthem_Jacket_Women_Blue_JJ1159_21_model.jpg',
         img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/51b978633b744151ba336eb20985f434_9366/India_Cricket_Anthem_Jacket_Women_Blue_JJ1159_22_model.jpg',
@@ -69,7 +69,7 @@ function SelectedHomeImg() {
       {
         id: '5',
         title: 'City Escape Utility Vest',
-        price: '₹4 799.50',
+        price: '₹4,799.50',
         offer: 'Sportswear',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/7ca49cc851a746aab5a26e5ab76b7667_9366/City_Escape_Utility_Vest_Black_IN3701_21_model.jpg',
         img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/d986a3780022420aaae8d2c8588cb008_9366/City_Escape_Utility_Vest_Black_IN3701_23_hover_model.jpg',
@@ -115,7 +115,7 @@ function SelectedHomeImg() {
       {
         id: '9',
         title: 'NMD_R1 V2 Shoes',
-        price: '₹6 ,750.00',
+        price: '₹6,750.00',
         offer: '-20% Men • Originals',
         img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/dd974c64e29f4b3aa61b2069133093e5_9366/NMD_R1_V2_Shoes_Yellow_IE2250_01_standard.jpg',
         img2: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e91a4bbceae45afa14c254a88f1a7ac_9366/NMD_R1_V2_Shoes_Yellow_IE2250_02_standard_hover.jpg',
