@@ -143,6 +143,7 @@ function Kid() {
             offer="Kid trainning"
           />
           <GalleryItem
+          id={10}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7c1398685f4f48508886c52ddb0df950_9366/future-icons-allover-print-hooded-sweatshirt-kids.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/77a09a6b260e40a99fa8048241fdd743_9366/future-icons-allover-print-hooded-sweatshirt-kids.jpg"
             title="Future Icons Allover Print Hooded Sweatshirt Kids"
@@ -150,6 +151,7 @@ function Kid() {
             offer="Kid trainning"
           />
           <GalleryItem
+          id={11}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/354da55c74dd4022952daf5600b2ea07_9366/arkd3-allover-print-tee.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/636870bcdbe2459cbe0daf5600b2f2e8_9366/arkd3-allover-print-tee.jpg"
             title="LOUNGE TEE"
@@ -158,6 +160,7 @@ function Kid() {
           />
          
           <GalleryItem
+          id={12}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2dd721ef95624bfe91f957241b7030d7_9366/brand-love-allover-print-full-zip-hoodie-kids.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/748e9b3bef8c472abab0ae7532144a39_9366/brand-love-allover-print-full-zip-hoodie-kids.jpg"
             title="Brand Love Allover Print Full-Zip Hoodie Kids"

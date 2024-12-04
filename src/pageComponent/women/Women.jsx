@@ -85,19 +85,19 @@ function Women() {
           />
           <GalleryItem
           id={2}
-            img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/76fa924d73834953b9d14715a7aadcd2_9366/ss-change-tee.jpg"
-            img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7b17f8dd5624c81b17cfa2e111e58db_9366/ss-change-tee.jpg"
+            img1="https://assets.adidas.com/images/w_600,f_auto,q_auto/3757395694ec49f7bd53fbcef39640ee_9366/WTR_DESIGNED_4_TRAINING_SHORTS_Black_IV8172_25_model.jpg"
+            img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/30283966b7474c62b47dbdb396ab1221_9366/WTR_DESIGNED_4_TRAINING_SHORTS_Black_IV8172_23_hover_model.jpg"
             title="SS CHANGE TEE"
             price="₹700.00"
             offer="Women Training"
           />
           <GalleryItem
           id={3}
-            img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/910321a36d304009ab76ca6f95e26780_9366/ekiden-running-tee-gender-neutral.jpg"
-            img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/249a1a18302443c1890094cdd4867c61_9366/ekiden-running-tee-gender-neutral.jpg"
-            title="Ekiden Running Tee (Gender Neutral)"
+            img1="https://assets.adidas.com/images/w_600,f_auto,q_auto/a35f68fb7ede4fcbafd7e12503cebca7_9366/Allover_Zebra_Animal_Print_Essentials_Tee_Grey_II5869_21_model.jpg"
+            img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/3c85c610644d4ed09b5169b6eb4fc65d_9366/Allover_Zebra_Animal_Print_Essentials_Tee_Grey_II5869_23_hover_model.jpg"
+            title="Allover Zebra Animal Print Essentials Tee"
             price="₹1,610.00"
-            offer="Running"
+            offer="Women • Originals"
           />
           <GalleryItem
           id={4}
@@ -124,20 +124,23 @@ function Women() {
             offer="First time on discount"
           />
           <GalleryItem
-            img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0c8dfd71cd942caaa8d2b813a3a6dfb_9366/adizero-running-tee.jpg"
-            img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8ac128ee1fc04d58b9ecd5f04ce07c66_9366/adizero-running-tee.jpg"
+          id={7}
+            img1="https://assets.adidas.com/images/w_600,f_auto,q_auto/545db989cd4e4a95bf04afa8008c0425_9366/City_Escape_Loose-Fit_Tee_White_HU0239_21_model.jpg"
+            img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/e6b849cea7754080a174afa8008c0e15_9366/City_Escape_Loose-Fit_Tee_White_HU0239_23_hover_model.jpg"
             title="Adizero Running Tee"
             price="₹1,200.00"
             offer="Women Running Tee"
           />
           <GalleryItem
+          id={8}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f048d9d929f45e2874e19d1ef402c9b_9366/adicolor-3-stripes-camisole.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0aeed36fe0e4b68a99fc853fb372b6e_9366/adicolor-3-stripes-camisole.jpg"
             title="Adicolor 3-Stripes Camisole"
             price="₹1,440.00"
-            offer="Women lifestyle"
+            offer="Women • Originals"
           />
           <GalleryItem
+          id={9}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/925088d62c37448c85a790ec07590cc3_9366/ny-tee.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f2191999d74e46a9a964ab2d3caa9c1d_9366/ny-tee.jpg"
             title="NY Tee"
@@ -145,6 +148,7 @@ function Women() {
             offer="Women lifestyle"
           />
           <GalleryItem
+          id={10}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/faf94da1d0114e54b66daf7f0122aba5_9366/graphic-tee.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b71b90cf9d614d3083baaf7f0122b9f8_9366/graphic-tee.jpg"
             title="Graphic Tee"
@@ -152,13 +156,15 @@ function Women() {
               offer="Women lifestyle"
           />
           <GalleryItem
-            img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e45b54f45b374d2c917a348ef9c9dec8_9366/lounge-tee.jpg"
-            img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6acc2b6ddd1b4f869a26c383d3277948_9366/lounge-tee.jpg"
-            title="LOUNGE TEE"
-            price="₹9,20.00"
+          id={11}
+            img1="https://assets.adidas.com/images/w_600,f_auto,q_auto/5ad431822724421a861926091777a938_9366/SS_CHANGE_TEE_White_IT0219_21_model.jpg"
+            img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/19aa9e81682f4cd7a795da238070cad2_9366/SS_CHANGE_TEE_White_IT0219_22_model.jpg"
+            title="SS CHANGE TEE"
+            price="₹800.00"
             offer="Women Training"
           />
           <GalleryItem
+          id={12}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/fcb65f792080486ea75639a11033ec15_9366/graphics-regular-tee.jpg"
             img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3989f98284114f81bec35964873253e7_9366/graphics-regular-tee.jpg"
             title="Graphics Regular Tee"
@@ -166,8 +172,9 @@ function Women() {
         offer="Women lifestyle"
           />
           <GalleryItem
+          id={13}
             img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3991ba7136be49b4bd70f278fd139477_9366/premium-essentials-tee.jpg"
-            img2="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e8a2ba3dd2fc4f949b6f7776bb87f910_9366/premium-essentials-tee.jpg"
+            img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/e8a2ba3dd2fc4f949b6f7776bb87f910_9366/Premium_Essentials_Tee_Grey_IK5765_23_hover_model.jpg"
             title="Premium Essentials Tee"
             price="₹1,600.00"
             offer="Women lifestyle"
