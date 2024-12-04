@@ -1,0 +1,829 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+
+}
+
+
+.dynamic-text {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  font-family: AdihausDIN, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.changing-text {
+  display: inline-block;
+  transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+}
+
+.fade-in {
+  opacity: 1; /* Text fully visible */
+}
+
+.fade-out {
+  opacity: 0; /* Text invisible */
+}
+
+.first-top-toggle {
+  min-height: 45vh;
+  transform: translateY(-110%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+
+  z-index: 999;
+  background-color: antiquewhite;
+}
+
+.first-top-toggle.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.close-top {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  background-color: black;
+  color: white;
+  padding: 4px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flex-toggle-top {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 1.25;
+  padding-top: 5rem;
+}
+
+.li-top {
+  list-style-type: none;
+}
+
+.top-li-bold {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.li-top-para {
+  max-width: 332px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.top-anchor {
+  margin-top: 1rem;
+  max-width: 300px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.15em;
+}
+
+.top-anchor a {
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.top-anchor a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+}
+
+#svg {
+  width: 60px;
+}
+.cart-count{
+  position: absolute;
+  background-color: black;
+  padding: 2px 3px ;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-left: 5px;
+  color: white;
+}
+.nav {
+  height: 55px;
+  background-color: #01579B;
+  /* background: linear-gradient(to bottom, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%); */
+
+}
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 3rem;
+  padding-top: 5px;
+}
+.nav-ul {
+  display: flex;
+  position: relative;
+}
+.nav-ul li {
+  padding: 8px;
+  list-style: none;
+}
+.nav-li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.87px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+
+  /* font-family: poppins; */
+}
+.nav-li .blackFriday {
+  color: black;
+  font-weight: 700;
+}
+
+.nav-ul-inner-ul {
+  position: absolute;
+  left: 0;
+  top: 2.5rem;
+  background-color: antiquewhite;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+}
+
+.nav-ul li:hover .nav-ul-inner-ul {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0s 0s;
+}
+.top-left-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 4rem;
+}
+.left-nav-ul {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  gap: 20px;
+}
+.leftnav-a {
+  text-decoration: none;
+  color: black;
+}
+input {
+  padding: 4px;
+}
+.top-font-a {
+  text-decoration: none;
+  padding: 8px;
+}
+.bars {
+  display: none;
+}
+.nav-close {
+  display: none;
+}
+.top-font-a {
+  color: white;
+}
+
+/* third home  */
+
+.main-back-img {
+  background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/Crciket_ecom_set_mast_head_2880x1280_afbf8a7023.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  position: relative;
+}
+.upto {
+  position: absolute;
+  bottom: 4rem;
+  left: 5rem;
+}
+.Extra {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+.upto-para {
+  color: black;
+  background-color: white;
+  padding: 4px 15px;
+  margin-top: 0.5rem;
+}
+.first-page-buy {
+  max-width: 170px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+.first-page-shop {
+  margin-top: 1rem;
+  display: flex;
+  gap: 5px;
+}
+.shop-btn {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: white;
+  color: black;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.shop-btn:hover {
+box-shadow: 5px 5px;
+}
+
+.first-page-caroucel {
+  /* width: 100%; */
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
+
+/* caroucel  */
+
+
+
+.carousel {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px;
+}
+
+.carousel-item {
+  flex: 0 0 24%; /* Each item takes up 25% of the carousel width */
+  text-align: center;
+  position: relative;
+}
+.item2{
+  flex: 0 0 17%; /* Each item takes up 25% of the carousel width */
+  text-align: center;
+  position: relative;
+}
+
+.carousel-item img,
+  .carousel-item video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    object-fit: cover; /* Ensure the image or video covers the space properly */
+  }
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.prev-btn {
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.next-btn {
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.caroucel-top{
+  padding: 30px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+.caroucel-first-para{
+  font-size: 14px;
+  padding: 15px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+text-decoration: underline;
+}
+
+.caroucel-1{
+  position: relative;
+  left: 0;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.offer-first-page{
+  position: absolute;
+  bottom: 4.5rem;
+  left: 10px;
+}
+.offer{
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 700;
+background-color: white;
+margin-bottom: 5px;
+}
+.price{
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: white;
+}
+.item2{
+  transition: 0.3s;
+}
+.item2:hover{
+  border: 1px solid ;
+ 
+}
+.caroucel-top2{
+  text-align: right;
+  padding: 28px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+font-weight: 700;
+}
+
+.fourth-page{
+  margin-top: 20px;
+}
+.fourth-content{
+  margin-top: 20px;
+}
+#men-img{
+  width: 100%;
+  height: 100%;
+}
+
+/* first-page-fourth-content  */
+.fourth-content{
+  position: relative;
+}
+
+.fourth-content-buy{
+  position: absolute;
+  bottom: 5rem;
+  left: 4.5rem;
+}
+.november-collection-h3{
+  font-size: 19px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+.collection-h3{
+  display: block;
+  background-color: white;
+  margin-top: 5px;
+  padding: 4px;
+  max-width: 310px;
+}
+.h3span{
+  max-width: 180px;
+
+}
+.adidas-orignal-collection-para{
+  font-size: 14px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: rgb(108, 107, 107);
+}
+.adidas-orignal-collection-sapn{
+  background-color: white;
+  display: block;
+  margin-top: 5px;
+  padding: 6px;
+}
+
+.original-1{
+  max-width: 235px;
+}
+.original-2{
+  max-width: 70px;
+}
+
+.fourth-content-buy-now{
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 10px 16px;
+  border: none;
+  box-shadow: 6px 8px rgb(145, 145, 1);
+  transition: 0.3s;
+}
+.fourth-content-buy-now:hover{
+  background-color:  rgb(145, 145, 1);
+  color: aliceblue;
+  box-shadow: inherit;
+  cursor: pointer;
+transform: scale(1);
+}
+.first-page-caroucel-video{
+  width: 100%;
+}
+
+/* home-page fivth-page  */
+
+.home-fivth-page{
+  min-height: 80vh;
+  background-color: black;
+  color: white;
+}
+.max-witdh-fivth-page-home{
+  max-width: 50vw;
+  margin: auto;
+  padding-top: 5rem;
+}
+.home-fivth-page-h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  
+}
+.home-fivth-page-para{
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  /* font-weight: 500; */
+  word-spacing: 4px;
+  margin-top:12px;
+  text-align: justify;
+}
+.home-fivth-page-para-1{
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  word-spacing: 4px;
+  padding-top: 2rem;
+  text-align: justify;
+}
+.homepage-fivth-svg{
+text-align: center;
+margin-top: 2rem;
+}
+.joinAdidas{
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+  gap: 20px;
+  align-items: center;
+  background-color: #ede734 ;
+}
+
+.joinAdidas-h2{
+  font-size: 27px;
+  font-weight: 700;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+}
+
+.signUp-free{
+  padding: 10px 18px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 6px 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signUp-free:hover{
+box-shadow: inherit;
+background-color: white;
+color: black;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .btn-hide{
+    display: none;
+  }
+  .li-top-para {
+    max-width: 400px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .top-li-bold {
+    font-weight: 700;
+    font-size: 21px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+
+}
+  .flex-toggle-top {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.25;
+    padding-top: inherit;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+  }
+
+  .nav {
+    height: 100vh;
+    transform: translateX(-100%); /* Initially hidden off-screen */
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+  }
+
+  .nav.active {
+    transform: translateX(0); /* Move nav into view */
+    opacity: 1;
+  }
+  .nav-close {
+    position: absolute;
+    right: 2rem;
+    top: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+  .nav-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: inherit;
+  }
+
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+    margin-top: 1rem;
+  }
+  .nav-li{
+    border-bottom: 1px solid rgb(164, 164, 164);
+    margin: 10px;
+  }
+.nav-li a{
+  font-size: 18px;
+}
+
+.top-left-nav {
+  padding-right: inherit;
+}
+  .left-nav-ul {
+    list-style: none;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .left-nav-li{
+    margin: 20px;
+    border-bottom: 1px solid rgb(164, 164, 164);
+
+  }
+  .leftnav-a{
+    font-size: 22px;
+    color: white;
+  }
+  .last-nav-search{
+    display: none;
+  }
+
+  .bars-svg {
+    width: 60px;
+  }
+  .bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #01579B;
+  }
+  .bars-a {
+    padding: 10px;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  .main-back-img {
+    background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_768,w_768/Crciket_ecom_set_MAST_HEAD_3_1ed2c699bb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+  }
+  .nav-li .blackFriday {
+    color: black;
+    font-weight: 700;
+    background: white;
+    padding: 6px;
+}
+.footer-1 {
+  display: none;
+}
+.home-fivth-page-h2 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.max-witdh-fivth-page-home {
+  max-width: 100%;
+  margin: inherit;
+  padding: 5rem;
+  text-align: justify;
+
+}
+.home-fivth-page-para-1 {
+  word-spacing: 3px;
+}
+.home-fivth-page-para{
+  font-size: 14px;
+}
+.footer{
+  justify-content: space-around;
+  background-color: black;
+}
+.footer-2 {
+  display: block;
+
+}
+.footer-2li{
+  padding: 6px;
+  text-align: center;
+}
+.footer-2li a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.joinAdidas {
+flex-direction: column;
+}
+.joinAdidas-h2{
+text-align: center;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0;
+}
+.fourth-content-buy {
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+}
+
+
+}
+
+
+@media (min-width:320px) and (max-width:500px) {
+  .upto {
+    position: absolute;
+    bottom: 1rem;
+    left: 6px;
+}
+.upto-para {
+  color: black;
+  background-color: white;
+  padding: 3px 10px;
+  margin-top: 0.5rem;
+  max-width: 297px;
+}
+.first-page-buy{
+  max-width: 176px;
+}
+.first-page-shop {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 4px;
+}
+.shop-btn {
+    text-decoration: none;
+    padding: 4px 8px;
+    font-size: 15px;
+}
+.caroucel-top{
+padding: 14px;
+}
+.caroucel-top2{
+padding: 15px;
+}
+.caroucel-top2 {
+  padding: 15px;
+  font-size: 25px;
+  text-align: left;
+}
+.caroucel-first-para{
+font-size: 16px
+}
+
+.offer{
+  display: none;
+}
+.offer-first-page {
+  position: absolute;
+  bottom: 5.5rem;
+  left: 14px;
+}
+.btn-hide{
+  display: none;
+}
+#men-img {
+  width: 100%;
+  height: 50vh;
+}
+.fourth-content-buy {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0.5rem;
+  
+
+}
+.adidas-orignal-collection-para{
+  display: none;
+}
+
+}
+
+
+
+@media (min-width:500px) and (max-width:600px) {
+  .fourth-content-buy {
+    left: 1rem;
+}
+  .november-collection-h3 {
+    font-size: 17px;
+}
+.collection-h3 {
+  padding: 1px;
+  max-width: 270px;
+}
+.h3span{
+  max-width:168px;
+
+}
+.adidas-orignal-collection-sapn {
+ 
+  padding: 0px;
+}
+.fourth-content-buy-now {
+  font-size: 15px;
+  margin-top: 5px;
+  padding: 7px 14px;
+}
+}

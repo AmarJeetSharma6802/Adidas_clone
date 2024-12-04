@@ -1,0 +1,165 @@
+  *{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+  }
+  .carousel-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 28%; 
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 5; 
+  }
+  
+  
+  
+  .caroucel-first-para {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .last-caroucel {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .next-btn {
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .caroucel-top {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  } 
+  
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+  
+  .footer-ul h4{
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .footer-li{
+    list-style: none;
+    padding: 4px;
+  }
+  .footer-li a{
+    font-size: 13px;
+    color:rgb(62, 61, 61);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .footer-li a:hover{
+    text-decoration: underline;
+  }
+  #instagram{
+    border-radius: 50%;
+    padding: 8px 10px;
+    color: white;
+    background-color: black;
+  }
+  .footer-1{
+    
+  }
+  
+  .footer-2{
+    display: none;
+  }
+
+  .last-footer{
+padding: 2rem;
+background-color: #282c31;
+text-align: center;
+color: #d3d7da;;
+font-size: 12px;
+
+  }
+  .condition{
+    padding: 1rem;
+  }
+
+  .select{
+    min-height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 2rem;
+  }
+
+
+  /* sports  */
+
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .carousel-item {
+      min-width: 33.33%; /* Show 3 items for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      min-width: 50%; /* Show 2 items for tablets */
+    }
+  
+    .caroucel-top {
+      font-size: 20px; /* Adjust title size */
+    }
+  
+    .caroucel-first-para {
+      font-size: 14px; /* Adjust text size */
+    }
+  
+    .last-caroucel {
+      font-size: 12px; /* Adjust link size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-item {
+      min-width: 100%; /* Show 1 item per slide on small screens */
+    }
+  
+    .caroucel-top {
+      font-size: 25px; /* Adjust title size */
+    }
+  
+    .caroucel-first-para {
+      font-size: 12px; /* Adjust text size */
+    }
+  
+    .last-caroucel {
+      font-size: 10px; /* Adjust link size */
+    }
+  }
+  
+  
+  
+  
