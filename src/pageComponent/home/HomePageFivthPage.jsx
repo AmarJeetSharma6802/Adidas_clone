@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomePage_FivthPage() {
+function HomePageFivthPage() {
   return (
     <div>
         <div className="home-fivth-page">
@@ -22,4 +22,4 @@ function HomePage_FivthPage() {
   )
 }
 
-export default HomePage_FivthPage
+export default HomePageFivthPage

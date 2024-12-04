@@ -1,7 +1,7 @@
 import React, { useState, useEffect  } from "react";
 import "./home.css"; // Ensure this contains the necessary styles
 import FirstpageFourthContent from './FirstpageFourthContent';
-import HomePage_Fivthpage from './HomePage_Fivthpage';
+import HomePageFivthpage from './HomePageFivthPage';
 import { Link } from "react-router-dom";
 
 function ThirdHome() {
@@ -186,7 +186,7 @@ function ThirdHome() {
       </div>
 
       <FirstpageFourthContent />
-      <HomePage_Fivthpage />
+      <HomePageFivthpage />
     </div>
   );
 }
