@@ -135,7 +135,7 @@ function ThirdHome() {
           <div
             className="carousel-container"
             style={{
-              transform: `translateX(-${(currentIndex * 75) / itemsToShow}%)`,
+              transform: `translateX(-${(currentIndex * 100) / itemsToShow}%)`,
             }}
           >
             {items.map((item, index ,) => (
