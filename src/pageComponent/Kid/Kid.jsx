@@ -62,7 +62,7 @@ function Kid() {
 
         <div className="fillterbtn">
           <button className="fillter-i" onClick={toggleFilter}>
-            Filter & Sort <i className="fa-solid fa-sliders"></i>
+          <span className="hide-small-screen">Filter & Sort</span><i className="fa-solid fa-sliders"></i>
           </button>
         </div>
       </div>

@@ -66,19 +66,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* Consistent spacing between items */
-    padding: 40px 20px; /* Ample padding for clean layout */
+    gap: 30px;
+    padding: 40px 20px; 
   }
   
   /* Each item container */
   .img-container {
     position: relative;
     width: 300px;
-    background: #fff; /* White background for contrast */
-    border: 1px solid #ddd; /* Subtle border for clean separation */
-    border-radius: 8px; /* Rounded corners for modern look */
-    overflow: hidden; /* Ensure content fits inside rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a floating effect */
+    background: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -231,16 +231,44 @@
     background-color: transparent;
     border: none;
  }
+
+ @media (min-width:900px ) and (max-width: 1250px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    gap: 10px;
+    
+
+  }
+  .img-container{
+    width: 290px;
+  }
+ }
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     .gallery {
-      flex-direction: column;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-content: center;
+      gap: 15px;
+
     }
   
     .img-container {
       width: 100%;
     }
+  }
+  @media (min-width:320px ) and (max-width: 450px) {
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      place-items: center;
+
+    
+    
+  
+    
   }
 
   @media (max-width: 900px) {
@@ -251,3 +279,19 @@
       overflow: hidden;
     }
   }
+
+  @media (min-width:320px ) and (max-width: 570px) {
+  }
+  .hide-small-screen ,.reponsive-hide{
+    display: none;
+  }
+  .men-h1{
+    font-size: 20px;
+  }
+  .fillter-i {
+    padding: 4px 8px;
+    font-size: 16px;
+    box-shadow: 5px 5px;
+
+  }
+}

@@ -54,7 +54,7 @@
   
   .caroucel-top {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
   } 
   
@@ -130,7 +130,7 @@ font-size: 12px;
     }
   
     .caroucel-top {
-      font-size: 20px; /* Adjust title size */
+      font-size: 30px; /* Adjust title size */
     }
   
     .caroucel-first-para {

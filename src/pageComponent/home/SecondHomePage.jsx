@@ -15,9 +15,9 @@ function SecondHomePage() {
   };
 
   const handleNavLinkClick = () => {
-    closeNav(); // Close the navbar when a link is clicked
+    closeNav(); 
   };
-
+  
   return (
     <div>
       {/* Hamburger Menu Bar */}
@@ -31,7 +31,7 @@ function SecondHomePage() {
           </a>
         </div>
         <div className="bars-logo">
-          <Link to="/">
+          <Link to="/" >
             <svg className="bars-svg" viewBox="100 100 50 32" xmlns="http://www.w3.org/2000/svg">
               <path
                 fillRule="evenodd"
