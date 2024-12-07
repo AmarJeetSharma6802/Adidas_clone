@@ -29,6 +29,10 @@ function CartPage() {
   // Calculate the total number of items
   const itemCount = state.cart.reduce((count, item) => count + item.count, 0);
 
+  const packed=()=>{
+    navigate("/itemPacked")
+  }
+
   return (
     <div className="cart">
       <h1 className="Shopping-h1">Shopping Cart</h1>
@@ -56,7 +60,7 @@ function CartPage() {
                       <button onClick={() => removeFromCart(item.id)} id="remove">
                         Remove
                       </button>
-                      <button id="buy"> Buy Now </button>
+                      <button id="buy" onClick={packed}> Buy Now </button>
                     </div>
                   </div>
                 </div>

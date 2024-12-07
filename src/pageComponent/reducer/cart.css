@@ -98,6 +98,58 @@ justify-content: center;
 padding: 15px;
 }
 
+.packedCart{
+    min-height: 100vh;
+    max-width: 85VW;
+    margin: auto;
+}
+.Shipping{
+    /* text-align: center; */
+    padding-top:1.5rem ;
+}
+.flexform{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 3rem;
+}
+.realForm{
+    width: 70%;
+}
+.itemEdit{
+    width: 30%;
+    padding: 15px 10px;
+    line-height: 1.5;
+}
+
+form{
+    padding: 15px 15px;
+}
+.flex-input{
+    display: flex;
+    gap: 30px;
+}
+.half-width{
+    width: 50%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+#full-width{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+
+}
+.delivered-day{
+    margin-top: 1.5rem;
+}
+.top-sapce{
+    margin-top: 10px;
+}
+.cart-item-image-packed{
+    width: 50%;
+}
+
 @media (max-width:700px) {
     .cartflex {
         max-width: 650px;
@@ -117,3 +169,71 @@ padding: 15px;
     
 }
 }
+@media (max-width:750px) {
+    .flexform {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 20px;
+    }
+    .realForm {
+        width: 100%;
+    }
+    .itemEdit{
+        width: 100%;
+    }
+    .item-center{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        
+    }
+    .cart-item-details{
+        border: 1px solid ;
+    }
+    .cart-item-image-packed {
+        width: 100%;
+    }
+    .last-packed-details{
+        padding: 10px;
+        text-align: center;
+    }
+}
+@media (min-width:320px) and (max-width:500px) {
+    .packedCart {
+        min-height: 100vh;
+        max-width: 100%;
+        margin: auto;
+    }
+    .flex-input {
+        display: flex;
+        gap: 5px;
+    }
+    form {
+        padding: 13px 7px;
+    }  
+    .half-width {
+        width: 50%;
+        padding: 10px 8px;
+        margin-bottom: 20px;
+    }  
+    .top-sapce {
+        margin-top: 12px;
+    }
+    .item-center {
+        margin-top: 10px;
+    }   
+    .information{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+    } 
+    .information-para{
+        text-align: center;
+    }
+    .Shipping {
+        text-align: center;
+        padding-top: 1.5rem;
+        font-size: 24px;
+    }
+}
+
