@@ -12,7 +12,7 @@ import SelectedmenImg from './pageComponent/select-img/SelectedmenImg';
 import SelectedWomensImg from './pageComponent/select-img/SelectedWomensImg';
 import SelectedHomeImg from './pageComponent/select-img/SelectedHomeImg';
 import SelectedKidsImg from './pageComponent/select-img/SelectedKidImg';
-import CartForm from './pageComponent/reducer/CartForm';
+// import CartForm from './pageComponent/reducer/CartForm';
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
         <Route path="/selectedWomensImg/:id" element={<SelectedWomensImg />} /> 
         <Route path="/selectedHomeImg/:id" element={<SelectedHomeImg />} /> 
         <Route path="/selectedKidsImg/:id" element={<SelectedKidsImg />} /> 
-        <Route path="/itemPacked" element={< CartForm/>} /> 
+        {/* <Route path="/itemPacked" element={< CartForm/>} />  */}
         
 
       </Route>
