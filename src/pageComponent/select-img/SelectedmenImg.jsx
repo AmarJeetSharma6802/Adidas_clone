@@ -76,6 +76,30 @@ function SelectedmenImg() {
       size: [7, 8, 9, 10],
       
     },
+    {
+      id: '6',
+      title: 'Essentials Single Jersey',
+      price: '₹999.00',
+      offer: 'Men • Sportswear',
+      img1: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/91200835c35c44269b27af5c01002e6f_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_21_model.jpg',
+      img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/dbcb452126b6468cb4e0af5c01003a5e_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_23_hover_model.jpg',
+      img3:"https://assets.adidas.com/images/w_600,f_auto,q_auto/383c4433eb5f4280bf6aaf5c010041a6_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_25_model.jpg",
+      img4:"https://assets.adidas.com/images/w_600,f_auto,q_auto/264e3f6835c544969f2daf5c01007468_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_01_laydown.jpg",
+      size: [7, 8, 9, 10],
+      
+    },
+    {
+      id: '7',
+      title: 'Adicolor Outline Trefoil Tee',
+      price: '₹1,600.00',
+      offer: 'Men • Sportswear',
+      img1: 'https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8dd5d11c963f4d5e8d43452f69682e14_9366/adicolor-outline-trefoil-tee.jpg',
+      img2: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/62c3e46b1db147179e4462a12d5e2a65_9366/Adicolor_Outline_Trefoil_Tee_Black_IU2347_23_hover_model.jpg',
+      img3:"https://assets.adidas.com/images/w_600,f_auto,q_auto/67888b168bf14a5b91c10c76d8e28e19_9366/Adicolor_Outline_Trefoil_Tee_Black_IU2347_25_model.jpg",
+      img4:"https://assets.adidas.com/images/w_600,f_auto,q_auto/061b1726e3e0489fb9d1a18d68763923_9366/Adicolor_Outline_Trefoil_Tee_Black_IU2347_01_laydown.jpg",
+      size: [7, 8, 9, 10],
+      
+    },
   ]
   const item = items.find((item) => item.id === id);
 

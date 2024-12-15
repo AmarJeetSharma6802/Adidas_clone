@@ -112,6 +112,22 @@ function Men() {
               price="₹9,999.00"
               offer="New"
             />
+            <GalleryItem
+            id={6}
+              img1="https://assets.adidas.com/images/w_600,f_auto,q_auto/91200835c35c44269b27af5c01002e6f_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_21_model.jpg"
+              img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/dbcb452126b6468cb4e0af5c01003a5e_9366/Essentials_Single_Jersey_Linear_Embroidered_Logo_Tee_Blue_IC9275_23_hover_model.jpg"
+              title="Korn Overshirt"
+              price="₹999.00"
+              offer="New"
+            />
+            <GalleryItem
+            id={7}
+              img1="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8dd5d11c963f4d5e8d43452f69682e14_9366/adicolor-outline-trefoil-tee.jpg"
+              img2="https://assets.adidas.com/images/w_600,f_auto,q_auto/62c3e46b1db147179e4462a12d5e2a65_9366/Adicolor_Outline_Trefoil_Tee_Black_IU2347_23_hover_model.jpg"
+              title="Adicolor Outline Trefoil Tee"
+              price="₹1,600.00"
+              offer="Men • Sportswear"
+            />
           </div>
         </div>
       </div>
