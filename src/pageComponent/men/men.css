@@ -264,14 +264,11 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       place-items: center;
-
-    
-    
-  
-    
   }
+}
 
-  @media (max-width: 900px) {
+
+  @media (max-width: 700px) {
     .fillter{
       position: fixed;
       width: 100%;
@@ -281,7 +278,7 @@
   }
 
   @media (min-width:320px ) and (max-width: 570px) {
-  }
+  
   .hide-small-screen ,.reponsive-hide{
     display: none;
   }
@@ -294,4 +291,15 @@
     box-shadow: 5px 5px;
 
   }
+}
+
+@media (min-width:700px ) and (max-width: 850px) {
+  .fillter {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+}
 }
