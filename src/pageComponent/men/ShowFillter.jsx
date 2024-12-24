@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import "./men.css";
+import { useNavigate } from "react-router-dom";
+
 
 function ShowFillter({ toggleFilter }) {
   const filterDropdown = useRef(null);
@@ -15,6 +17,17 @@ function ShowFillter({ toggleFilter }) {
   const fillterProduct = () => {
     productShow.current.classList.toggle('show');
   };
+
+    const navigate = useNavigate();
+  
+  const menpage =()=>{
+    // window.location.href = "/men";
+    navigate("/men");
+  }
+  const womenpage =()=>{
+    // window.location.href = "/women";
+    navigate("/women");
+  }
 
   return (
     <div>
@@ -73,10 +86,10 @@ function ShowFillter({ toggleFilter }) {
               </button>
             </div>
             <ul className="divisons-ul" ref={filtershow}>
-              <li className="divisions-li">
+              <li className="divisions-li" onClick={menpage}>
                 <input type="checkbox" id="checkbox" /> <span className="divisions-li">Mens</span>
               </li>
-              <li className="divisions-li">
+              <li className="divisions-li" onClick={womenpage} >
                 <input type="checkbox" id="checkbox" /> <span className="divisions-li">Women</span>
               </li>
             </ul>
